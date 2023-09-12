@@ -11,13 +11,19 @@
 </head>
 <body>
     <main>
-        <h1>Jogo da Adivinhação</h1>
-        <p>Adivinha um número de 0 à 10</p>
-
-        <form>
-            <input type="text" name="valor" id="valor" maxlength="2">
-            <button>Tentar</button>
-        </form>
+        <div class="screen1 hide">
+            <h1>Jogo da Adivinhação</h1>
+            <p>Adivinha um número de 0 à 99</p>
+            
+            <form>
+                <input type="text" name="valor" id="valor" maxlength="2">
+                <button>Tentar</button>
+            </form>
+        </div>
+        <div class="screen2 ">
+            <h2>Acertou 3 vezes</h2>
+            <button>Jogar Novamente</button>
+        </div>
     </main>
 </body>
 </html>

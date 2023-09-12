@@ -25,6 +25,7 @@ main {
   text-align: center;
 }
 
+
 body, button, input {
   font-family: "DM Sans", sans-serif;
 }
@@ -65,4 +66,25 @@ button {
   color: white;
   font-weight: bold;
   border-radius: 0 .4rem .4rem 0;
+  cursor: pointer;
+  transition: background .5s;
+}
+
+
+button:hover {
+  filter: brightness(.9);
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+  border-radius: .4rem;
+}
+
+.hide{
+  display:none;
 }
