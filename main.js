@@ -33,10 +33,12 @@ function toggleScreen(){
 
 }
 
-btn1.addEventListener('click',handleClick)
-btn2.addEventListener('click',handleResetClick)
-document.addEventListener('keydown', function(e){
+function pressKey(e){
   if(e.key == "Enter" && screen1.classList.contains("hide")){
     handleResetClick()
   }
-})
+}
+
+btn1.addEventListener('click',handleClick)
+btn2.addEventListener('click',handleResetClick)
+document.addEventListener('keydown', pressKey)
