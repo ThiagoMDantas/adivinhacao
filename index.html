@@ -13,16 +13,16 @@
     <main>
         <div class="screen1">
             <h1>Jogo da Adivinhação</h1>
-            <p>Adivinha um número de 0 à 99</p>
+            <p>Adivinha um número de 0 à 9</p>
             
             <form>
                 <input type="text" name="valor" id="valor" maxlength="2">
-                <button onclick="handleClick(event)">Tentar</button>
+                <button id="btnTry">Tentar</button>
             </form>
         </div>
         <div class="screen2 hide">
             <h2>Acertou 3 vezes</h2>
-            <button>Jogar Novamente</button>
+            <button id="btnReset">Jogar Novamente</button>
         </div>
     </main>
 
